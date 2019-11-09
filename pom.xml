@@ -3,7 +3,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.com.iotknowyou</groupId>
+    <groupId>com.iotknowyou</groupId>
     <artifactId>Spring-Cloud-Microservice</artifactId>
     <version>${project.version}</version>
     <modules>
@@ -17,6 +17,12 @@
         <module>ribbon-LoadStrategy</module>
         <module>feign-native-demo</module>
         <module>feign-basic-auth-demo</module>
+        <module>feign-inherit-provide</module>
+        <module>feign-inherit-api</module>
+        <module>feign-inherit-consume</module>
+        <module>hystrix-native-demo1</module>
+        <module>hystrix-feign-demo</module>
+        <module>hystrix-dashboard-demo</module>
     </modules>
 
     <!--定义父项目的打包方式-->
