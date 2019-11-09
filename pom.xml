@@ -23,6 +23,9 @@
         <module>hystrix-native-demo1</module>
         <module>hystrix-feign-demo</module>
         <module>hystrix-dashboard-demo</module>
+        <module>zuul-native-demo</module>
+        <module>zuul-eureka-demo</module>
+        <module>zuul-retry-demo</module>
     </modules>
 
     <!--定义父项目的打包方式-->
